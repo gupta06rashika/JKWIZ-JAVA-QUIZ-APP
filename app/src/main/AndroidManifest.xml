@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rashika.loginapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LoginApp">
+        <activity android:name="com.rashika.loginapp.review_next_next"></activity>
+        <activity android:name="com.rashika.loginapp.next_review" />
+        <activity android:name="com.rashika.loginapp.REVIEW" />
+        <activity android:name="com.rashika.loginapp.fillintheblanks_sad" />
+        <activity android:name="com.rashika.loginapp.fillintheblanks_result_win" />
+        <activity android:name="com.rashika.loginapp.oopsresult2" />
+        <activity android:name="com.rashika.loginapp.oopsresult" />
+        <activity android:name="com.rashika.loginapp.fillintheblanks" />
+        <activity android:name="com.rashika.loginapp.SplashActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.rashika.loginapp.oops1" />
+        <activity android:name="com.rashika.loginapp.javaquiz3" />
+        <activity android:name="com.rashika.loginapp.javaquiz2" />
+        <activity android:name="com.rashika.loginapp.javaquiz1" />
+        <activity android:name="com.rashika.loginapp.home2" />
+        <activity android:name="com.rashika.loginapp.SignUp" />
+        <activity android:name="com.rashika.loginapp.MainActivity" />
+    </application>
+
+</manifest>

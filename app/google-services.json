@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "397516406621",
+    "project_id": "login-86286",
+    "storage_bucket": "login-86286.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397516406621:android:2f47f459e476eb6365f2b4",
+        "android_client_info": {
+          "package_name": "com.rashika.loginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397516406621-2k3k58iootu4v2a2f7r2n68ddohg1jlb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaqpSttv5_ffT4SmO72t4lxxzZmAUxP0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "397516406621-2k3k58iootu4v2a2f7r2n68ddohg1jlb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

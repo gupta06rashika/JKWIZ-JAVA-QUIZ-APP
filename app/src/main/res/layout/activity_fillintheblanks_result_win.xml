@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/finalimage3"
+
+        android:rotation="360"
+        android:rotationX="360"
+        android:rotationY="360"
+        tools:context=".fillintheblanks_result_win">
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/mysadface"
+            android:layout_width="232dp"
+            android:layout_height="159dp"
+            android:layout_marginTop="108dp"
+            android:src="@drawable/fillintheblanks_result_happy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="361dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="56dp"
+            android:background="#AA00FF"
+            android:gravity="center"
+            android:text="SCORE"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mysadface" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="250dp"
+            android:layout_height="122dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="TextView"
+
+            android:textColor="#AA00FF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView19"
+            app:layout_constraintVertical_bias="0.073" />
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="133dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="72dp"
+            android:layout_marginBottom="40dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="REVIEW"
+            android:textColor="@color/purple"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.535"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20"
+            app:layout_constraintVertical_bias="0.652" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
